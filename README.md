@@ -10,7 +10,7 @@
 1. `git clone git@github.com:alumniei/website.git`
 2. `cd website`
 3. `bundle install`
-4. `jekyll serve`
+4. `bundle exec jekyll serve`
 5. go have some fun
 
 ### Deployment
