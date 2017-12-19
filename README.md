@@ -9,7 +9,8 @@
 
 1. `git clone git@github.com:alumniei/website.git`
 2. `cd website`
-3. `bundle install`
+3. `bundle install` (instal bundler with `gem install bundler` if you are on a
+fresh ruby installation)
 4. `bundle exec jekyll serve`
 5. go have some fun
 
