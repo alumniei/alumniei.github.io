@@ -1,0 +1,46 @@
+---
+---
+
+body {
+    font-family: 'Roboto';
+    color: white;
+}
+
+#maintenance {
+    background: url(../assets/porto.jpg) no-repeat 0px 0px;
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    .opacity {
+        background-color: rgba(0, 0, 0, 0.55);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .above {
+        position: relative;
+        text-align: center;
+    }
+
+    img {
+        width: 400px;
+    }
+
+    h1 {
+        margin-bottom: 0;
+        line-height: 80px;
+        font-size: 80px;
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 8px;
+    }
+
+    .contacts {
+        margin-top: 50px;
+    }
+}

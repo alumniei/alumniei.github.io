@@ -2,10 +2,10 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: maintenance
 ---
 
-<div id="about">
+<!-- <div id="about">
 AlumniEI-FEUP é uma associação sem fins lucrativos  que representa os antigos alunos de Engenharia Informática da Faculdade de Engenharia da Universidade do Porto. A nossa principal missão é a promoção do Engenheiro Informático e da profissão como um todo.
 AlumniEI-FEUP é uma associação sem fins lucrativos  que representa os antigos alunos de Engenharia Informática da Faculdade de Engenharia da Universidade do Porto. A nossa principal missão é a promoção do Engenheiro Informático e da profissão como um todo.
 AlumniEI-FEUP é uma associação sem fins lucrativos  que representa os antigos alunos de Engenharia Informática da Faculdade de Engenharia da Universidade do Porto. A nossa principal missão é a promoção do Engenheiro Informático e da profissão como um todo.AlumniEI-FEUP é uma associação sem fins lucrativos  que representa os antigos alunos de Engenharia Informática da Faculdade de Engenharia da Universidade do Porto. A nossa principal missão é a promoção do Engenheiro Informático e da profissão como um todo.
@@ -28,4 +28,4 @@ asduhasdhsad
 hasdhkasdhhasdjkas
 hasdhashkjlasd
 asihkadskhjdash
-</div>
+</div> -->
