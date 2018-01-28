@@ -39,19 +39,29 @@ main {
   text-align: center;
 }
 
-section,
-.site-footer {
+section {
   @extend %all-centered;
   height: 100vh;
 }
 
 /* footer */
 .site-footer {
+  display: flex;
+  flex-direction: column;
   background-color: $primary-color;
   color: $white;
   font-family: $secondary-font-family;
   font-size: $small-font-size;
-  
+  height: 100vh;
+  padding-bottom: 3 * $spacing-unit;
+
+  .contacts {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   a {
     color: $white;
   }
@@ -80,5 +90,9 @@ section,
     .links > a {
       display: block;
     }
+  }
+
+  #copyright {
+    text-align: center;
   }
 }
