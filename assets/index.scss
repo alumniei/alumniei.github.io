@@ -2,11 +2,6 @@
 ---
 @import "../_sass/minima/utils";
 
-section {
-  @extend %all-centered;
-  height: 100vh;
-}
-
 #landing {
   .illustration {
     @extend %all-centered;

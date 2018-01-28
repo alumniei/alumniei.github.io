@@ -38,3 +38,15 @@
 main {
   text-align: center;
 }
+
+section,
+.site-footer {
+  @extend %all-centered;
+  height: 100vh;
+}
+
+/* footer */
+.site-footer {
+  background-color: $primary-color;
+  color: $white;
+}
