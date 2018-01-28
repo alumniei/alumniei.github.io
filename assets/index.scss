@@ -1,0 +1,78 @@
+---
+---
+@import "../_sass/minima/utils";
+
+section {
+  @extend %all-centered;
+  height: 100vh;
+}
+
+#landing {
+  .illustration {
+    @extend %all-centered;
+    height: 75%;
+
+    img {
+      max-height: 100%;
+    }
+  }
+}
+
+#about {
+  .aboutme {
+    position: relative;
+    width: 455px;
+    text-align: left;
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -20px;
+      left: -90px;
+      width: 150px;
+      height: 70px;
+      background-color: $primary-color;
+      z-index: -1;
+    }
+  }
+
+  .statics {
+    $number-size: 120px;
+    $border-width: 20px;
+    margin-top: 8 * $spacing-unit;
+
+    li {
+      display: inline-block;
+      margin-left: #{$number-size / 2};
+      margin-right: #{$number-size / 2};
+
+      .numbers {
+        border-radius: 50%;
+        width: $number-size;
+        height: $number-size;
+        border-width: $border-width;
+        border-style: solid;
+        font-size: rem(24px);
+        line-height: #{$number-size - (2 * $border-width)};
+        margin: 0 auto;
+      }
+
+      &.graduated .numbers  {
+        border-color: $yellow;
+      }
+
+      &.age .numbers {
+        border-color: $green;
+      }
+
+      &.events .numbers {
+        border-color: $orange;
+      }
+
+      .title {
+        font-size: rem(12px);
+        padding-top: 2 * $spacing-unit;
+      }
+    }
+  }
+}

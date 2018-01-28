@@ -1,28 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
+  <head>
+    {% include head.html %}
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="{{ page.style | relative_url }}">
+  </head>
 
   <body>
 
     {% include header.html %}
 
     <main class="page-content" aria-label="Content">
-      <section id="landing">
-        <div class="illustration"><img src="../assets/illustration.png" /></div>
-      </section>
-      <section id="about" style="background-color: red;">
-        ABOUT
-      </section>
-      <section id="projects" style="background-color: yellow;">
-        Projects
-      </section>
-      <section id="contacts" style="background-color: #9CE3EE;">
-        Contacts
-      </section>
-      <!-- <div class="wrapper">
         {{ content }}
-      </div> -->
     </main>
 
     <!-- {% include footer.html %} -->
