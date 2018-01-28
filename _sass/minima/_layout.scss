@@ -4,7 +4,6 @@
   width: 100%;
   font-size: $small-font-size;
   text-align: center;
-  margin-top: 3 * $spacing-unit;
 
   .logo {
     width: 130px;
@@ -119,8 +118,12 @@ section {
   flex-direction: column;
   justify-content: center;
 
-  .illustration img {
-    max-width: 100%;
+  .illustration {
+    height: 75%;
+
+    img {
+      max-height: 100%;
+    }
   }
 }
 

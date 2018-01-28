@@ -19,6 +19,8 @@ html, body, main {
 body {
   color: $text-color;
   background-color: $bckg-color;
+  margin-top: 3 * $spacing-unit;
+  // margin-bottom: 3 * $spacing-unit;
 }
 
 /**
