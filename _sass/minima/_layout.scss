@@ -49,4 +49,36 @@ section,
 .site-footer {
   background-color: $primary-color;
   color: $white;
+  font-family: $secondary-font-family;
+  font-size: $small-font-size;
+  
+  a {
+    color: $white;
+  }
+
+  .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .footer-block {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 200px;
+    margin-right: 3 * $spacing-unit;
+    margin-left: 3 * $spacing-unit;
+
+    > div {
+      margin-top: $spacing-unit;
+    }
+
+    .social > a {
+      margin-right: $spacing-unit / 2;
+    }
+
+    .links > a {
+      display: block;
+    }
+  }
 }

@@ -1,3 +1,7 @@
+@function rem($pixels) {
+  @return $pixels / $base-font-size * 1rem;
+}
+
 //FONT
 $base-font-family: 'Roboto Mono', monospace !default;
 $secondary-font-family: 'Rubik', sans-serif;
@@ -26,8 +30,4 @@ $phone: 767px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-@function rem($pixels) {
-  @return $pixels / $base-font-size * 1rem;
 }
