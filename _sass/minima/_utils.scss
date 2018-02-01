@@ -1,0 +1,33 @@
+@function rem($pixels) {
+  @return $pixels / $base-font-size * 1rem;
+}
+
+//FONT
+$base-font-family: 'Roboto Mono', monospace !default;
+$secondary-font-family: 'Rubik', sans-serif;
+$base-font-size: 18px !default;
+$small-font-size: rem(12px) !default;
+$base-font-weight: 400 !default;
+$base-line-height: 1.5 !default;
+
+//COLORS
+$text-color: #4F4F4F !default;
+$bckg-color: #FFFFFF !default;
+$primary-color: #9CE3EE;
+$yellow: #FFD24E;
+$green: #46D9BE;
+$orange: #FF8A63;
+$white: #FFFFFF;
+
+$spacing-unit: 12px !default;
+
+// media queries
+$phone: 767px;
+
+
+%all-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

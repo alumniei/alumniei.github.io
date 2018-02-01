@@ -1,46 +1,30 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
+<footer id="contacts" class="site-footer">
+  <div class="contacts">
+    <div>
+      <div class="footer-block">
+        <div class="title">Morada</div>
+        <div>Associação de Antigos de Engenharia Informática da FEUP</div>
+        <div>Rua Dr. Roberto Frias s/n,<br>4200-465 Porto - PORTUGAL</div>
       </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
+      <div class="footer-block">
+        <div class="title">E-mail</div>
+        <div><a href="mailto:alumniei@fe.up.pt" target="_top">alumniei@fe.up.pt</a></div>
+        <div class="title">Redes Sociais</div>
+        <div class="social">
+          <a href="http://fb.com/alumniei" target="_blank"><img src="/assets/fb.png" /></a>
+          <a href="http://youtube.com/channel/UCuYn5xuAmChRDcSdQrbp-Fw" target="_blank"><img src="/assets/youtube.png" /></a>
+          <a href="http://twitter.com/alumnieifeup" target="_blank"><img src="/assets/twitter.png" /></a>
+        </div>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+      <div class="footer-block">
+        <div class="title">Links úteis</div>
+        <div class="links">
+          <a href="https://dei.fe.up.pt/" target="_blank">DEI</a>
+          <a href="http://fe.up.pt" target="_blank">FEUP</a>
+          <a href="https://paginas.fe.up.pt/~feuplink/feuplink/" target="_blank">FEUPLink</a>
+        </div>
       </div>
     </div>
-
   </div>
-
+  <div id="copyright">© 2018 Alumniei-FEUP</div>
 </footer>
