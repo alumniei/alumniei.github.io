@@ -87,6 +87,15 @@ section {
       margin-right: $spacing-unit / 2;
     }
 
+    .social > a:hover, 
+    .mail > a:hover,
+    .mail > a:visited,
+    .social > a:visited,
+    .links > a:hover,
+    .links > a:visited {
+      color:rgba($color: #ffffff, $alpha: 0.8)
+    }
+
     .links > a {
       display: block;
     }
