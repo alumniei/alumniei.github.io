@@ -1,3 +1,14 @@
-<section id="projects" style="background-color: yellow;">
-  Projects
+<section id="projects">
+  <div class="tabs">
+    {% for section in site.data.projects %}
+      <div id="tab{{ forloop.index }}" class="tab">
+        <input type="radio" name="tabs" id="option{{ forloop.index }}"{% if forloop.first == true %} checked{% endif %}>
+        <label for="option{{ forloop.index }}">{{ section.name }}</label>
+        <article>
+          <h2>{{ section.name }}</h2>
+          <p>{{ section.description }}</p>
+        </article>
+      </div>
+    {% endfor %}
+  </div>
 </section>

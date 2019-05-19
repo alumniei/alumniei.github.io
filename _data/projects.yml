@@ -1,3 +1,28 @@
 - name: Commit Porto
-  description: Fazemos
-  location: FEUP
+  description: >-
+    A Commit Porto reúne profissionais de várias áreas tecnológicas,
+    com o espírito de partilha de conhecimento e experiência.
+    Ao longo de um dia os melhores talentos de IT estimulam a sua
+    mente com as diversas discussões na vanguarda da tecnologia,
+    ampliando a sua rede de contactos. 
+  url: https://commitporto.com/
+- name: JobIT
+  description: >-
+    O jobIT é um ciclo de micro-palestras que serve como montra do
+    panorama empresarial na área das tecnologias.
+    Este evento é organizado em cooperação com os alunos do curso e
+    oferece a oportunidade de contactar com empresas nacionais e
+    internacionais.
+  url: http://jobit.pt
+- name: AlumniEI Meetup
+  description: >-
+    Os AlumniEI Meetup são encontros informais entre antigos alunos
+    do curso com o objetivo de partilhar experiências e diferentes
+    percursos profissionais.
+- name: Mentorado
+  description: >-
+    O projecto de Mentorado coloca à disposição dos alunos um
+    conjunto de voluntários com diferentes perfis, que se
+    disponibilizaram para os aconselhar em questões académicas,
+    profissionais e pessoais.
+  url: https://alumniei-mentorados-web.herokuapp.com/
