@@ -4,10 +4,18 @@
       <div id="tab{{ forloop.index }}" class="tab">
         <input type="radio" name="tabs" id="option{{ forloop.index }}"{% if forloop.first == true %} checked{% endif %}>
         <label for="option{{ forloop.index }}">{{ section.name }}</label>
-        <article>
-          <h2>{{ section.name }}</h2>
-          <p>{{ section.description }}</p>
-        </article>
+        <div class="tab-content">
+          <div class="tab-header">
+            <h1 class="tab-title">{{ section.name }}</h1>
+            {% if section.url %}<h2 class="tab-url"><a href="{{ section.url }}">{{ section.url }}</a></h1>{% endif %}
+          </div>
+          <div class="tab-body">
+            {% if section.image %}<img class="tab-image" alt="{{ section.name }}" src="{{ section.image }}"/>{% endif %}
+            <div class="tab-description">
+              <p>{{ section.description }}</p>
+            </div>
+          </div>
+        </div>
       </div>
     {% endfor %}
   </div>

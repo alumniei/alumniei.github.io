@@ -76,9 +76,10 @@
 
   .tabs {
     position: relative;
-    width: 80%;
+    width: 100%;
     color: $text-color;
     margin: 0;
+    text-align: left;
 
     // tab
     .tab {
@@ -97,8 +98,8 @@
           color: $primary-color;
         }
       
-        // checked + article
-        &:checked ~ article {
+        // checked + tab-content
+        &:checked ~ .tab-content {
           display: block;
         }
       }
@@ -118,19 +119,39 @@
         z-index: 100;
       }
       
-      // article
-      article {
+      .tab-content {
         display: none;
         left: 0;
         width: 100%;
         padding: 1em;
         position: relative;  
         top: 0;
-        background: $white;
         line-height: 1.7;
+
+        .tab-header {
+          position: relative;
+          padding: 1em;
+
+          .tab-title {
+            font-size: 4em;
+            font-weight: bold;
+            line-height: 1em;
+          }
+        }
         
-        p {
+        .tab-body {
+          padding: 1em;
+          margin-left: 4em;
           margin-bottom: 1em;
+
+          .tab-image {
+            width: 100%;
+            margin-top: -6em;
+          }
+
+          .tab-description {
+            padding-top: 1em;
+          }
         }
       
         &:after {
@@ -155,7 +176,7 @@
     margin: 100px 100px;
 
     .tabs {
-      width: 80%;
+      width: 100%;
       color: $text-color;
       
       // tab
@@ -169,11 +190,11 @@
             border: none;
         }
         
-        // article
-        article {
+        .tab-content {
           position: absolute;
           width: 70%;
           left: 26.5%;
+          top: -50%;
         }
       }
     }
