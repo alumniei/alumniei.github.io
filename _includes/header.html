@@ -1,7 +1,7 @@
 <header role="banner">
   <nav class="site-header">
     <ul>
-      <li class="logo"><img src="../assets/alumniei.png"/></li>
+      <li class="logo"><a href="{{ site.baseurl }}"><img src="../assets/alumniei.png"/></a></li>
       {% for section in site.data.navbar %}
         <li>
           <a class="page-link" href="#{{ section.anchor }}">{{ section.title }}</a>
