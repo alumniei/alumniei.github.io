@@ -5,6 +5,9 @@
   font-size: $small-font-size;
   text-align: center;
   padding-top: 3 * $spacing-unit;
+  padding-bottom: $spacing-unit;
+  z-index: 1;
+  background-color: $white;
 
   .logo {
     width: 130px;
