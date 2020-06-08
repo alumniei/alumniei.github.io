@@ -7,6 +7,9 @@
     ampliando a sua rede de contactos. 
   url: https://commitporto.com/
   image: ../assets/projects/commit_porto.jpg
+  facebook: https://www.facebook.com/CommitPorto
+  instagram: https://www.instagram.com/commitportoconf/
+  twitter: https://twitter.com/CommitPorto
 - name: JobIT
   description: >-
     O jobIT é um ciclo de micro-palestras que serve como montra do
@@ -15,6 +18,8 @@
     oferece a oportunidade de contactar com empresas nacionais e
     internacionais.
   url: http://jobit.pt
+  facebook: https://www.facebook.com/jobITAlumniEIFEUP
+  instagram: https://www.instagram.com/jobit.alumnieifeup/
 - name: AlumniEI Meetup
   description: >-
     Os AlumniEI Meetup são encontros informais entre antigos alunos
