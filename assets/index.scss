@@ -9,6 +9,7 @@
 
     img {
       max-height: 100%;
+      max-width: 100%;
     }
   }
   
@@ -24,9 +25,9 @@
 }
 
 #about {
-  .aboutme {
+  div#aboutme p{
     position: relative;
-    width: 455px;
+    max-width: 455px;
     text-align: left;
 
     &::before {
@@ -41,7 +42,7 @@
     }
   }
 
-  .statics {
+  #statistics ul {
     $number-size: 120px;
     $border-width: 20px;
     margin-top: 8 * $spacing-unit;
