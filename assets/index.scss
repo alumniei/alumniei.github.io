@@ -2,6 +2,7 @@
 ---
 @import "../_sass/minima/utils";
 
+
 #landing {
   .illustration {
     @extend %all-centered;
@@ -25,6 +26,9 @@
 }
 
 #about {
+  height: auto;
+  min-height: 100vh;
+  
   div#aboutme p{
     position: relative;
     max-width: 455px;
@@ -84,6 +88,9 @@
 }
 
 #projects {
+
+  height: auto;
+  min-height: 100vh;
 
   .tabs {
     position: relative;
