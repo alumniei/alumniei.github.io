@@ -2,6 +2,10 @@
 ---
 @import "../_sass/minima/utils";
 
+main > section {
+  padding-top: 50px; //Avoids that the header covers the content of the sections
+}
+
 #landing {
   .illustration {
     @extend %all-centered;
