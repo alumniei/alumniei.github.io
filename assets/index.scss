@@ -13,6 +13,7 @@ main > section {
 
     img {
       max-height: 100%;
+      max-width: 100%;
     }
   }
   
@@ -28,9 +29,12 @@ main > section {
 }
 
 #about {
-  .aboutme {
+  height: auto;
+  min-height: 100vh;
+  
+  div#aboutme p{
     position: relative;
-    width: 455px;
+    max-width: 455px;
     text-align: left;
 
     &::before {
@@ -45,7 +49,7 @@ main > section {
     }
   }
 
-  .statics {
+  #statistics ul {
     $number-size: 120px;
     $border-width: 20px;
     margin-top: 8 * $spacing-unit;
@@ -87,6 +91,9 @@ main > section {
 }
 
 #projects {
+
+  height: auto;
+  min-height: 100vh;
 
   .tabs {
     position: relative;
