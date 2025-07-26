@@ -45,6 +45,31 @@ main {
 section {
   @extend %all-centered;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  scroll-margin-top: $header-height;
+}
+
+#events h1 {
+  margin-bottom: 30px;
+}
+
+.calendar-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  max-width: 100%; /* Limita a largura máxima */
+}
+
+.calendar-container iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
+  border: 0;
 }
 
 /* footer */
@@ -55,7 +80,7 @@ section {
   color: $white;
   font-family: $secondary-font-family;
   font-size: $small-font-size;
-  height: 100vh;
+  height: 45vh;
   padding-bottom: 3 * $spacing-unit;
 
   .contacts {

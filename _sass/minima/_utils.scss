@@ -6,7 +6,7 @@
 $base-font-family: 'Roboto Mono', monospace !default;
 $secondary-font-family: 'Rubik', sans-serif;
 $base-font-size: 18px !default;
-$small-font-size: rem(12px) !default;
+$small-font-size: small !default;
 $base-font-weight: 400 !default;
 $base-line-height: 1.5 !default;
 
@@ -21,6 +21,9 @@ $white: #FFFFFF;
 $purple: #8383E2;
 
 $spacing-unit: 12px !default;
+
+// Header height for scroll offset.
+$header-height: 84px;
 
 // media queries
 $phone: 767px;

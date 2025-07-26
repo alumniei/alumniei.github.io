@@ -22,10 +22,18 @@ html, body, main {
 body {
   color: $text-color;
   background-color: $bckg-color;
+  display:  flex;
+  flex-direction: column;
 }
 
 /* Links */
 a {
   color: $text-color;
   text-decoration: none;
+}
+
+h1 {
+  font-size: xxx-large;
+  font-weight: bold;
+  line-height: 1em;
 }

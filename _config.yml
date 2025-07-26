@@ -29,6 +29,8 @@ youtube_username: UCuYn5xuAmChRDcSdQrbp-Fw
 # Build settings
 markdown: kramdown
 theme: minima
+minima:
+  skin: classic
 plugins:
   - jekyll-feed
 

@@ -7,7 +7,28 @@
         <div class="tab-content">
           <div class="tab-header">
             <h1 class="tab-title">{{ section.name }}</h1>
-            {% if section.url %}<h2 class="tab-url"><a href="{{ section.url }}">{{ section.url }}</a> {% if section.facebook %} <a href="{{ section.facebook }}" target="_blank"><i class="fab fa-facebook-square"></i></a>{% endif %} {% if section.instagram %}<a href="{{ section.instagram }}" target="_blank"><i class="fab fa-instagram"></i></a>{% endif %} {% if section.twitter %}<a href="{{ section.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>{% endif %}</h1>{% endif %} 
+            {% if section.url %}
+              <h2 class="tab-url">
+                  <a href="{{ section.url }}" target="_blank">
+                    <i class="fa-solid fa-link"></i>
+                  </a> 
+                  {% if section.facebook %} 
+                    <a href="{{ section.facebook }}" target="_blank">
+                      <i class="fab fa-facebook-square"></i>
+                    </a>
+                  {% endif %} 
+                  {% if section.instagram %}
+                    <a href="{{ section.instagram }}" target="_blank">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  {% endif %} 
+                  {% if section.twitter %}
+                    <a href="{{ section.twitter }}" target="_blank">
+                      <i class="fa-brands fa-square-x-twitter"></i>
+                    </a>
+                  {% endif %}
+              </h2>
+             {% endif %}
           </div>
           <div class="tab-body">
             {% if section.image %}<img class="tab-image" alt="{{ section.name }}" src="{{ section.image }}"/>{% endif %}
