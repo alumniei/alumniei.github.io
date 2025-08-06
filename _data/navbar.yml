@@ -2,5 +2,7 @@
   anchor: about
 - title: Projectos
   anchor: projects
+- title: Proximos Eventos
+  anchor: events
 - title: Contactos
   anchor: contacts
