@@ -1,8 +1,11 @@
 @charset "utf-8";
 @import "minima/utils";
+@import "minima/mixins";
 
 // Import partials.
 @import
   "minima/base",
-  "minima/layout"
+  "minima/layout",
+  "minima/article",
+  "minima/post"
 ;
