@@ -20,7 +20,7 @@
   line-height: 1.2;
   margin-bottom: $spacing-unit;
 
-  @include media-query($on-laptop) {
+  @include media-query($laptop) {
     font-size: 2.5rem;
   }
 }
