@@ -1,10 +1,14 @@
 <header role="banner">
   <nav class="site-header">
     <ul>
-      <li class="logo"><a href="{{ site.baseurl }}"><img src="../assets/alumniei.png"/></a></li>
+      <li class="logo"><a href="{{ "/" | relative_url }}"><img src="{{ '/assets/alumniei.png' | relative_url }}"/></a></li>
       {% for section in site.data.navbar %}
         <li>
-          <a class="page-link" href="#{{ section.anchor }}">{{ section.title }}</a>
+          {% if page.url == "/" %}
+            <a class="page-link" href="#{{ section.anchor }}">{{ section.title }}</a>
+          {% else %}
+            <a class="page-link" href="{{ "/" | relative_url }}#{{ section.anchor }}">{{ section.title }}</a>
+          {% endif %}
         </li>
       {% endfor %}
       <li>

@@ -19,6 +19,8 @@ $green: #46D9BE;
 $orange: #FF8A63;
 $white: #FFFFFF;
 $purple: #8383E2;
+$grey-color: #828282;
+$grey-color-light: #e0e0e0;
 
 $spacing-unit: 12px !default;
 
@@ -27,6 +29,7 @@ $header-height: 84px;
 
 // media queries
 $phone: 767px;
+$laptop: 960px;
 
 
 %all-centered {
