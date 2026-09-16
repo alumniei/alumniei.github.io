@@ -1,3 +1,11 @@
+- name: BitCommit
+  description: >-
+    A BitCommit é uma mini-conferência, destinada a profissionais da área da informática, 
+    que tem o intuito de discutir IA na perspetiva de como nos afeta na vida profissional, 
+    em áreas como empregabilidade, saúde mental, aprendizagem e muitas outras, desviando-nos 
+    da parte técnica e focando naquilo que consideramos mais importante: as pessoas!
+  url: https://bitcommit.alumniei.pt/
+  image: ../assets/projects/bitcommit.png
 - name: Commit Porto
   description: >-
     A Commit Porto reúne profissionais de várias áreas tecnológicas,
